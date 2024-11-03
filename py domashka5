@@ -1,0 +1,10 @@
+import colorama
+import inspect
+print(dir(colorama))
+print(hasattr(colorama,'Cursor'))
+print(getattr(colorama,'Cursor'))
+print(inspect.ismodule(colorama))
+
+#Fore - класс,предоставляет методы для установки цвета текста
+#Back - класс,предоставляет методы для установки цвета фона
+#Style - класс,предоставляет методы для установки стиля текста
